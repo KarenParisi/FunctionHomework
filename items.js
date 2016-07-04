@@ -1024,3 +1024,18 @@ var items = [{
   "has_variations": false,
   "used_manufacturer": false
 }];
+/*var avg = items.reduce(function(a,b) {
+  return ([a.price] + [b.price]);
+
+})
+console.log (avg);*/
+
+
+
+
+
+
+
+
+
+

@@ -1,48 +1,53 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
   <title>Etsy Data Parsing</title>
   <style type="text/css">
-  .container { width: 1000px; margin: 0 auto;}
-  .question { margin-bottom: 25px; border-bottom: 1px solid rgba(134,134,134,1);}
+  .container { width: 1000px; height: 1200px; margin: 0 auto;background-color: rgb(208,208,208);/*padding-top: 0px;*/}
+  .question {margin-bottom: 25px; /*margin-top: 100px; border-bottom: 1px solid rgba(134,134,134,1);*/ margin-left: 100px;}
+  h4 {margin-left: 350px; font-family: Arial; color: rgb(118,118,118);}
+  .answer {white-space: normal; margin-right: 100px; font-family:Arial;}
+  .page-content.entry-content pre { white-space: normal;}
+  h1 {margin-left: 200px;font-size: 12px; font-family: Arial;color: rgb(118,118,118);}
+  .footer {width:1000px; height:118; background-color: rgb(58, 57,62); margin-top:200px;}
   </style>
 </head>
+
+
 <body>
-
+  <h1>Etsy Items</h1>
   <div class="container">
+    <img src ="banner.jpg" />
+      <div class="question">
+        <h4>Answer 1<!-- . What is the average price of all items? --></h4>
+        <pre id="answer1" class="answer"> </pre>
+      </div>
 
-    <h1>Etsy Data Parsing</h1>
+      <div class="question">
+        <h4>Answer 2<!-- . Show me an array of items that cost between $14.00 and $18.00 USD? --></h4>
+        <pre id="answer2" class="answer"></pre>
+      </div>
 
-    <div class="question">
-      <h4>1. What is the average price of all items?</h4>
-      <pre id="answer1">Answer 1 Goes Here</pre>
-    </div>
+      <div class="question">
+        <h4>Answer 3 <!-- . Which item has a "GBP" currency code? Display it's name and price. --></h4>
+        <pre id="answer3" class="answer"></pre>
+      </div>
 
-    <div class="question">
-      <h4>2. Show me an array of items that cost between $14.00 and $18.00 USD?</h4>
-      <pre id="answer2">Answer 2 Goes Here</pre>
-    </div>
+      <div class="question">
+        <h4>Answer 4<!--  . Display a list of all items who are made of wood. --></h4>
+        <pre id="answer4" class="answer"></pre>
+      </div>
 
-    <div class="question">
-      <h4>3. Which item has a "GBP" currency code? Display it's name and price.</h4>
-      <pre id="answer3">Answer 3 Goes Here</pre>
-    </div>
+      <div class="question">
+        <h4>Answer 5 <!-- . Which items are made of eight or more materials? Display the name, number of items and the items it is made of. --></h4>
+        <pre id="answer5" class="answer"></pre>
+      </div>
 
-    <div class="question">
-      <h4>4. Display a list of all items who are made of wood.</h4>
-      <pre id="answer4">Answer 4 Goes Here</pre>
-    </div>
-
-    <div class="question">
-      <h4>5. Which items are made of eight or more materials? Display the name, number of items and the items it is made of.</h4>
-      <pre id="answer5">Answer 5 Goes Here</pre>
-    </div>
-
-    <div class="question">
-      <h4>6. How many items were made by their sellers?</h4>
-      <pre id="answer6">Answer 6 Goes Here</pre>
-    </div>
-
+      <div class="question">
+        <h4> Answer 6 <!-- . How many items were made by their sellers? --></h4>
+        <pre id="answer6" class="answer"></pre>
+      </div>
+      <div class="footer"> </div>
   </div>
 
 
